@@ -3,3 +3,27 @@
 
 
 @import './pages/index.scss';
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+$primary:#141A1F;
+$danger:#E51300;
+$secondary:#667F99;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px, // ← 修改這裡
+  xl: 1200px,
+  xxl: 1400px
+);
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import './base/base';

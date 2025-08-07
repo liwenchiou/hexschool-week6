@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+/* 標籤的基本樣式 */
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #141a1f;
+  background-color: #F0F3F5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.outline{
+    outline:1px solid red;
+}
+.ps-125{
+    padding-left: $spacer * 1.25;
+}
+.p-75{
+    padding:$spacer * .75;
+}
+.pe-75{
+    padding-right: $spacer * .75;
+}
+.py-75{
+    padding-top: $spacer * .75;
+    padding-bottom: $spacer * .75;
+}
+.mb-75{
+    margin-bottom: $spacer * .75;
+}
+.me-75{
+    margin-right: $spacer * .75;
+}
+
+.navbar-toggler {
+  border: none; /* 移除按鈕邊框 */
+  box-shadow: none; /* 移除陰影 */
+}
+
+.navbar-toggler:focus {
+  outline: none; /* 移除 focus 時的外框 */
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.fs-14{
+    font-size: 14px;
+}
+.f-2xl{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.f-4xl{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.f-sm{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+.f-md{
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.f-lg{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.rounded-16{
+    border-radius: 16px;
+}
+.rounded-24{
+    border-radius: 24px;
+}
+
+.form-floating > .form-control {
+  min-height: 56px ;
+  height: 56px;
+  padding-top: 1rem;
+  padding-bottom: 0.625rem;
+}
+.form-text.f-sm{
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
