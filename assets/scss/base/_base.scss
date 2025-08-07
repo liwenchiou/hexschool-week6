@@ -45,20 +45,20 @@ p {
     padding-left: $spacer * 1.25;
 }
 .p-75{
-    padding:$spacer * .75;
+    padding: 24px;
 }
 .pe-75{
-    padding-right: $spacer * .75;
+    padding-right: $spacer * 0.75;
 }
 .py-75{
-    padding-top: $spacer * .75;
-    padding-bottom: $spacer * .75;
+    padding-top: $spacer * 0.75;
+    padding-bottom: $spacer * 0.75;
 }
 .mb-75{
-    margin-bottom: $spacer * .75;
+    margin-bottom: $spacer * 0.75;
 }
 .me-75{
-    margin-right: $spacer * .75;
+    margin-right: $spacer * 0.75;
 }
 
 .navbar-toggler {
