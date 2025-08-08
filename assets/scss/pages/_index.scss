@@ -15,3 +15,13 @@ body{
 .my-form-h{
     height: 200px;
 }
+
+.index-link{
+    color: #4A69E8;
+}
+
+@media(max-width:768px){
+  .index-btn{
+    width: 100%;
+  }
+}

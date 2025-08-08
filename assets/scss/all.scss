@@ -2,7 +2,9 @@
 @import './layout/footer.scss';
 
 
-@import './pages/index.scss';
+@import './pages/index';
+@import './pages/privacy';
+@import './pages/terms';
 
 // Custom.scss
 // Option B: Include parts of Bootstrap
