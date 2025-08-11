@@ -9,6 +9,7 @@
   <title>index</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script type="module" crossorigin src="/hexschool-week6/assets/main-DDy5sJby.js"></script>
   <link rel="stylesheet" crossorigin href="/hexschool-week6/assets/main-WSRCEqCq.css">
 </head>
@@ -54,7 +55,7 @@
         <div class="col-10 mx-auto bg-white rounded-24 p-md-5 p-75 position-relative">
           <img src="/hexschool-week6/assets/form-top-F0dOtpe4.svg" alt="img" class="position-absolute contactUs-img d-lg-block d-none">
           <!-- 基本資料 -->
-          <div class="row border-bottom mb-md-5 mb-4">
+          <div class="row border-bottom mb-md-5 mb-4" data-aos="fade-left">
             <div
               class="col-md-3 d-flex flex-md-column flex-row justify-content-between justify-content-md-start align-items-center align-items-md-start">
               <h2 class="fs-2xl text-primary mb-md-75 mb-3">基本資料</h2>
@@ -88,7 +89,7 @@
           </div>
 
           <!-- 諮詢需求 -->
-          <div class="row border-bottom mb-md-5 mb-4">
+          <div class="row border-bottom mb-md-5 mb-4" data-aos="fade-right">
             <div
               class="col-md-3 d-flex flex-md-column flex-row justify-content-between justify-content-md-start align-items-center align-items-md-start">
               <h2 class="fs-2xl text-primary mb-md-75 mb-3">諮詢需求</h2>
@@ -165,7 +166,7 @@
           </div>
 
           <!-- 聯絡偏好 -->
-          <div class="row border-bottom">
+          <div class="row border-bottom" data-aos="fade-left">
             <div
               class="col-md-3 d-flex flex-md-column flex-row justify-content-between justify-content-md-start align-items-center align-items-md-start">
               <h2 class="fs-2xl text-primary mb-md-75 mb-3">聯絡偏好</h2>
@@ -377,6 +378,10 @@
         <div class="text-secondary fs-14 ">Copyright © 2025 職旅 workway. All rights reserved.</div>
     </div>
 </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
